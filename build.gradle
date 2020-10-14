@@ -1,0 +1,10 @@
+apply plugin: 'java'
+
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    compile "org.apache.jena:jena-core:3.16.0"
+    testCompile "junit:junit:4.12"
+}
